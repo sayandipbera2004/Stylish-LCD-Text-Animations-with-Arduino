@@ -34,7 +34,7 @@ To connect the I2C LCD Display to the Arduino UNO, use the following wiring:
 ### Project Preview
 Here is how the project looks when running:
 
-![Project Preview](./preview.jpg)
+![Project Preview](preview.jpg)
 
 *(Replace `./preview.jpg` with the actual path to your preview image in the repository)*
 

@@ -81,7 +81,7 @@ I’m an **ECE engineering student** with a strong love for programming. While I
 - Programming and Electronics
 
 ## 📬 Feedback
-Have suggestions or ideas to enhance this project? Feel free to reach out or share your thoughts in the comments!
+Have suggestions or ideas to enhance this project? Feel free to reach out or share your thoughts!
 
 ---
 **Made with ❤️ by Sayandip Bera**

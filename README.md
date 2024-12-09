@@ -13,28 +13,46 @@ As an **ECE engineering student** who loves programming, I occasionally dive int
 ## 🛠️ Hardware Requirements
 - Arduino UNO
 - I2C LCD Display (16x2)
-- Connecting Wires
+- Jumper Wires
 - Breadboard
 
 ## 🔧 Software Requirements
 - Arduino IDE
 
-## 📜 How It Works
-1. The project uses the `LiquidCrystal_I2C` library to control the LCD display.
-2. Text animations are created by updating the cursor positions dynamically and clearing the screen for a smooth effect.
-3. The animations include horizontal bouncing, zigzag motion across rows, and scrolling text.
+## 🔌 Pin Diagram and Connections
+To connect the I2C LCD Display to the Arduino UNO, use the following wiring:
 
-## 🚀 Getting Started
+| LCD Pin | Arduino Pin |
+|---------|-------------|
+| GND     | GND         |
+| VCC     | 5V          |
+| SDA     | A4          |
+| SCL     | A5          |
+
+![I2C LCD Connection Diagram](https://example.com/i2c-lcd-diagram) *(Replace with actual image URL)*
+
+### Project Preview
+Here is how the project looks when running:
+
+![Project Preview](./preview.jpg)
+
+*(Replace `./preview.jpg` with the actual path to your preview image in the repository)*
+
+## 📜 How It Works
 1. **Setup the Hardware**:
-   - Connect the I2C LCD display to the Arduino UNO.
-   - Ensure proper wiring for power, ground, SDA, and SCL connections.
+   - Place the I2C LCD Display on the breadboard.
+   - Use jumper wires to connect the LCD pins to the Arduino as per the table above.
 
 2. **Install Libraries**:
-   - Download and install the `LiquidCrystal_I2C` library from the Arduino Library Manager.
+   - Open the Arduino IDE.
+   - Go to **Tools > Manage Libraries**.
+   - Search for `LiquidCrystal_I2C` and install it.
 
 3. **Upload the Code**:
    - Copy the code from the project file.
-   - Upload it to the Arduino UNO using the Arduino IDE.
+   - Connect the Arduino UNO to your computer via USB.
+   - Select the correct **COM Port** and **Board Type** in the Arduino IDE.
+   - Upload the code.
 
 4. **Watch the Animations**:
    - Power on the Arduino UNO and observe the stylish text animations on the LCD display.
@@ -81,7 +99,7 @@ I’m an **ECE engineering student** with a strong love for programming. While I
 - Programming and Electronics
 
 ## 📬 Feedback
-Have suggestions or ideas to enhance this project? Feel free to reach out or share your thoughts!
+Have suggestions or ideas to enhance this project? Feel free to reach out or share your thoughts in the comments!
 
 ---
 **Made with ❤️ by Sayandip Bera**

@@ -29,14 +29,13 @@ To connect the I2C LCD Display to the Arduino UNO, use the following wiring:
 | SDA     | A4          |
 | SCL     | A5          |
 
-![I2C LCD Connection Diagram](./pindiagram.png) *(Replace with actual image URL)*
+![I2C LCD Connection Diagram](./pindiagram.png) 
 
 ### Project Preview
 Here is how the project looks when running:
 
 ![Project Preview](./preview.jpg)
 
-*(Replace `./preview.jpg` with the actual path to your preview image in the repository)*
 
 ## 📜 How It Works
 1. **Setup the Hardware**:
